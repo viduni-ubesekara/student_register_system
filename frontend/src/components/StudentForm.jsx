@@ -28,7 +28,7 @@ const StudentForm = ({ selectedStudent, clearSelectedStudent, refreshList }) => 
       alert('Student Registered!');
     }
 
-    clearSelectedStudent();
+    //clearSelectedStudent();
     refreshList(); // refresh list in parent
     setStudent({ name: '', email: '', course: '' });
   };
